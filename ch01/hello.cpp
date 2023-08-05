@@ -9,6 +9,6 @@ int main() {
     for (const auto& greeting : greetings) {
         cout << greeting << ", World!" << endl;
     }
-    cout << std::size(greetings) << endl;
+    //cout << std::size(greetings) << endl;
     return 0;
 }
